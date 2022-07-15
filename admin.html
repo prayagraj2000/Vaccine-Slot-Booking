@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style1.css" />
+    <title>Admin Page</title>
+  </head>
+  <body>
+    <h1>WELCOME to the Admin Home</h1>
+    <div class="databox">
+      <h2>Retrieved Data</h2>
+      <div id="table"></div>
+      <table class="users_table">
+        <thead>
+            <tr>
+                <th id="full_name" value=document.getElementById(full_name)>Name</th>
+                <th id="email_id" value=document.getElementById(email_id)>Email ID</th>
+                <th id="age" value=document.getElementById(age)>Age</th>
+                <th id="ph_no" value=document.getElementById(ph_no)>Mobile Number</th>
+                <th id="aadhar_no" value=document.getElementById(aadhar_no)>Aadhar ID</th>
+                <th id="address" value=document.getElementById(address)>Address</th>
+                <th id="date_of_birth" value=document.getElementById(date_of_birth)>Date</th>
+            </tr>
+        </thead>
+        <tbody id="user-table"></tbody>
+      </table>
+    </div>
+    <script src="./adminScript.js" defer></script>
+  </body>
+</html>
